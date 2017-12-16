@@ -23,16 +23,16 @@ var currentDistanceRun : Double = 80.0
 if currentDistanceRun < targetDistance * 0.1 {
     print ("Great start, keep it up!")
 }
-else if  currentDistanceRun >= targetDistance * 0.45 {
+else if  currentDistanceRun >= targetDistance * 0.45 && currentDistanceRun <= targetDistance * 0.4999999 {
     print ("You're almost at halfway!")
 }
 else if currentDistanceRun == targetDistance * 0.50 {
     print ("Halfway there!")
 }
-else if currentDistanceRun >= targetDistance * 0.90 {
+else if currentDistanceRun >= targetDistance * 0.90 && currentDistanceRun <= targetDistance * 0.99999999 {
     print ("Nearly done!")
 }
-else currentDistanceRun == targetDistance {
+else {
     print ("GREAT JOB! You're finished the run.")
 }
 /*:
