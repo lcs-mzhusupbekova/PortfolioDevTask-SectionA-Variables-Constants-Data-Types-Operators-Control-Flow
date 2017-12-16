@@ -15,7 +15,9 @@ let isMale = true
 let neverEverSarcastic = true
 
 // Answer question 5 below
-
+if teachesPhysics && isMale && neverEverSarcastic {
+    print ( "Must be Braeckman!")
+}
 
 /*:
  ## Now share your understanding
