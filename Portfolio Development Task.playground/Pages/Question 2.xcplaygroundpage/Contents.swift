@@ -17,7 +17,9 @@
  
  */
 // Answer question 2 below
-
+let NameOfTheAlbum = "Four"
+var copiesSold = 2000000
+var suggestedSellingPrice = 10
 /*:
  ## Now share your understanding
  
